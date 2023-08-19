@@ -78,6 +78,7 @@ public class Main {
             lista.remove(numeroItem - 1);
             System.out.print("Digite o novo item: ");
             lista.add(numeroItem - 1, scanner.nextLine());
+            System.out.println("Lista Atualizada!");
         } else {
             System.out.println("Número de item Inválido!");
         }
