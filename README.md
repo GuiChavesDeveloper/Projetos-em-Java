@@ -1,5 +1,8 @@
 # Projetos-em-Java
-![Codando](codando.gif)
+<div style="text-align:center">
+    <img src="codando.gif" alt="Codando...">
+</div>
+
 ## Este repositório tem como objetivo abrigar os projetos em java feitos por mim.
 
 Os códigos presentes aqui foram feitos usando a IDE do Visual Stúdio Code, e nescessitam do JDK presente na máquina que for rodá-lo.
