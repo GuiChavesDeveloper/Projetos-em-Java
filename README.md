@@ -1,6 +1,6 @@
 # Projetos-em-Java
 <p align="center">
-    <img src="codando.gif" alt="Codando">
+    <img src="img/codando.gif" alt="Codando">
 </p>
 ## Este repositório tem como objetivo abrigar os projetos em java feitos por mim.
 
