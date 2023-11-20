@@ -13,7 +13,7 @@ public abstract class Peca {
         this.estoqueMaximo = estoqueMaximo;
     }
 
-    public abstract double venda();
+    public abstract boolean venda(int qtdVendida);
 
     public String getDescricao() {
         return descricao;
@@ -47,9 +47,9 @@ public abstract class Peca {
         this.estoqueMaximo = estoqueMaximo;
     }
 
-    public boolean reposicaoEstoque(int estoque){
-        if(estoque<estoqueMinimo){
-            estoque=estoqueMaximo;
+    public boolean reposicaoEstoque(){
+        if(quantidade<estoqueMinimo){
+            quantidade=estoqueMaximo;
             return true;
         }
         return false;
